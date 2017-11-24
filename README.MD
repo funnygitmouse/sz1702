@@ -1,8 +1,8 @@
 
-#测试代码
+# 测试代码
 
 ---
-##1.添加用户和绑定远程仓库
+## 1.添加用户和绑定远程仓库
 ```
 # 添加用户名
 git --global user.name "username"
@@ -25,9 +25,9 @@ git remote add origin https://github.com/用户名/仓库名.git
 # 第一次推送到git远程仓库
 git push -u origin master
 ```
-##2.ssh公钥绑定
+## 2.ssh公钥绑定
 ```
-# 生成
+# 生成公钥
 ssh-keygen -t rsa -C "用户的email"
 
 # 在github上绑定ssh公钥
